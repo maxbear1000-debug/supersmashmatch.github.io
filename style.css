@@ -12,9 +12,11 @@ header{
 }
 
 .fighterContainer{
-  display: ; 
+  display: flex; 
   background-color: #D6BFC6;
-  
-  
-  
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
 }
+
+.
