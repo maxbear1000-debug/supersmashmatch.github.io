@@ -26,4 +26,16 @@ header{
   width: 220px; 
 }  
 
+.fighter-card img{
+  width: 150px;
+  height: 150px;
+}
+
+button{
+  background-color: #ffe29a;
+  border: 1px solid gray;
+}
+
+
+
 
