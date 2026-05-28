@@ -19,4 +19,11 @@ header{
   flex-wrap: wrap;
 }
 
-.
+.fighter-card{
+  background-color: #c7e5ef
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px; 
+}  
+
+
