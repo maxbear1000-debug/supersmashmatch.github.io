@@ -17,5 +17,17 @@ const mathupInfo = {
 
 const fighter = matchups[name];
 
+mathupInfo.innerHTML = '
+  <h3>Good Mathup</h3> 
+  <p> ${fighter.good.join(", ")} </p>
+  <h3>Bad Mathups</h3>
+  <p> ${fighter.bad.join(", ")}</p>
+';
+
+function playSound (){
+  const
+  
+  
+}
 
   
