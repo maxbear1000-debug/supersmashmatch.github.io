@@ -25,7 +25,10 @@ mathupInfo.innerHTML = '
 ';
 
 function playSound (){
-  const
+  const audio = new Audio("sounds/select.mp3");
+
+  audio.play();
+}
   
   
 }
