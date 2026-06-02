@@ -20,10 +20,9 @@ header{
 }
 
 .fighter-card{
-  background-color: #c7e5ef
-  padding: 20px;
-  width: 220px; 
-}  
+  background-color: #c7e5ef;
+  width: 200px;
+}
 
 .fighter-card img{
   width: 150px;
@@ -33,14 +32,14 @@ header{
 button{
   background-color: #ffe29a;
   border: 1px solid gray;
-  padding: 10px';
+  padding: 10px;
   font-size: 16px;
   border-radius: 4px;
-  corser: pointer;
+  cursor: pointer;
 }
 
 button:hover{
-  background-color: red; 
+  background-color: red;
 }
 
 .info-box{

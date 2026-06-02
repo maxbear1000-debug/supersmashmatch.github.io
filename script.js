@@ -1,7 +1,20 @@
-function SelectFighter(name){
+function SelectFighter(name) {
   const text = document.getElementById("selected text");
-  text.innerHTML = 'You selected <span style ="color: yellow"> ${name}</span>!';
-  playSound(); 
+  text.innerHTML = `You selected <span style="color: yellow">${name}</span>!`;
+
+  const fighter = mathupInfo[name];
+  const matchupInfo = document.getElementById("matchupInfo");
+
+  if (fighter && matchupInfo) {
+    matchupInfo.innerHTML = `
+      <h3>Good Matchup</h3>
+      <p>${fighter.good.join(", ")}</p>
+      <h3>Bad Matchups</h3>
+      <p>${fighter.bad.join(", ")}</p>
+    `;
+  }
+
+  playSound();
 }
 
 const mathupInfo = {
@@ -10,27 +23,14 @@ const mathupInfo = {
     bad: ["Pikachu", "Samus"]
   },
   Link: {
-    good: ["Incineroar", "Villager"],
-    bad: ["Joker","Min Min"]
+    good: ["Incineroar", "Villager/isabelle"],
+    bad: ["joker", "Mmin min"]
   }
 };
 
-const fighter = matchups[name];
-
-mathupInfo.innerHTML = '
-  <h3>Good Mathup</h3> 
-  <p> ${fighter.good.join(", ")} </p>
-  <h3>Bad Mathups</h3>
-  <p> ${fighter.bad.join(", ")}</p>
-';
-
-function playSound (){
-  const audio = new Audio("sounds/select.mp3");
-
+function playSound() {
+  const audio = new Audio("audio flie ");
   audio.play();
-}
-  
-  
 }
 
   
