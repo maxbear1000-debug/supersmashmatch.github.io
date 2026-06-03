@@ -1,5 +1,5 @@
 body{
-  background-color: #4AB3BD; 
+  background-color: #000000; 
   color: white;
   font-family: sans-serif;
   margin: 0;
@@ -7,20 +7,20 @@ body{
 }
 
 header{
-  background-color: #F7BEE7;
+  background-color: #221f21;
   padding: 20px; 
 }
 
 .fighterContainer{
   display: flex; 
-  background-color: #D6BFC6;
+  background-color: #000000;
   gap: 30px;
   margin-top: 40px;
   flex-wrap: wrap;
 }
 
 .fighter-card{
-  background-color: #c7e5ef;
+  background-color: #c7d4b9;
   width: 200px;
 }
 
