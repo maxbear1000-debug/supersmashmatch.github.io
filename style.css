@@ -1,7 +1,7 @@
 body{
   background-color: #000000; 
-  color: white;
-  font-family: sans-serif;
+  color: rgb(218, 254, 255);
+  font-family: Times New Roman, serif;
   margin: 0;
   text-align: center; 
 }
@@ -9,6 +9,8 @@ body{
 header{
   background-color: #221f21;
   padding: 20px; 
+  font-family: Times New Roman, serif;
+
 }
 
 .fighterContainer{
@@ -20,17 +22,24 @@ header{
 }
 
 .fighter-card{
-  background-color: #c7d4b9;
+  border-radius: 14px;
+  background-color: #92978c;
+  padding: 20px;
   width: 200px;
 }
 
 .fighter-card img{
+  border-radius: 14px; 
+  border-width: 4px;
+  border-color: #00ffee;
+  border-style: solid;
+  margin-top: 10px;
   width: 150px;
   height: 150px;
 }
 
 button{
-  background-color: #ffe29a;
+  background-color: #ffffff;
   border: 1px solid gray;
   padding: 10px;
   font-size: 16px;
@@ -39,7 +48,7 @@ button{
 }
 
 button:hover{
-  background-color: red;
+  background-color: rgb(0, 225, 255);
 }
 
 .info-box{
