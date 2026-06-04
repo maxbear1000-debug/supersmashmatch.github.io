@@ -1,5 +1,5 @@
 function SelectFighter(name) {
-  const text = document.getElementById("selected text");
+  const text = document.getElementById("selectedText");
   text.innerHTML = `You selected <span style="color: yellow">${name}</span>!`;
 
   const fighter = mathupInfo[name];

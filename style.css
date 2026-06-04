@@ -1,5 +1,5 @@
 body{
-  background-color: #000000; 
+  background-color: #c7adad; 
   color: rgb(218, 254, 255);
   font-family: Times New Roman, serif;
   margin: 0;
@@ -15,7 +15,7 @@ header{
 
 .fighterContainer{
   display: flex; 
-  background-color: #000000;
+  background-color: #ce7777;
   gap: 30px;
   margin-top: 40px;
   flex-wrap: wrap;
