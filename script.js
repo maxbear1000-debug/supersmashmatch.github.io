@@ -35,7 +35,19 @@ const mathupInfo = {
   Samus: {
     good: ["Donkey Kong", "Incineroar"],
     bad: ["Olimar", "Fox"]
-  }
+  },
+  Olimar: {
+    good: ["Samus", "Donkey Kong"],
+    bad: ["Sephiroth", "Fox"]
+  },
+  CaptainFalcon: {
+    good: ["Min Min", "Ganondorf"],
+    bad: ["Pikachu", "Mario"]
+  },
+  Falco: {
+    good: ["Bowser", "Snake"],
+    bad: ["Pikachu", "Shulk"]
+  },
 };
 
 function playSound() {
