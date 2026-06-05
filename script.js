@@ -1,5 +1,5 @@
 function SelectFighter(name) {
-  const text = document.getElementById("selectedText");
+  const text = document.getElementById(`${name}-text`);
   text.innerHTML = `You selected <span style="color: yellow">${name}</span>!`;
 
   const fighter = mathupInfo[name];
@@ -23,6 +23,18 @@ const mathupInfo = {
   Link: {
     good: ["Incineroar", "Villager/isabelle"],
     bad: ["joker", "Mmin min"]
+  },
+  Bowser: {
+    good: ["Ganondorf", "Little Mac"],
+    bad: ["Pikachu", "Palutena"]
+  },
+  DonkeyKong: {
+    good: ["Little Mac", "Ganondorf"],
+    bad: ["Pikachu", "Zero Suit Samus (ZSS)"]
+  },
+  Samus: {
+    good: ["Donkey Kong", "Incineroar"],
+    bad: ["Olimar", "Fox"]
   }
 };
 
